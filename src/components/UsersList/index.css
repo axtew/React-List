@@ -1,0 +1,41 @@
+.list {
+  margin-top: 50px;
+}
+
+.table-list {
+  margin-top: 65px;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.table-list th {
+  text-align: left;
+  padding: 12px;
+  width: 30%;
+}
+
+.table-list th:first-of-type {
+  width: 10%;
+}
+
+.table-list td {
+  text-align: left;
+  padding: 12px;
+  width: 30%;
+}
+
+.table-list td:first-of-type {
+  width: 10%;
+}
+
+.table-list tr {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.table-list thead tr,
+.table-list tr:hover {
+  background-color: #f1f1f1;
+}
